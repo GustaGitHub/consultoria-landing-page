@@ -1,9 +1,9 @@
 export default function hourSubject(setHours){
-   let checkHours = new Date().getHours();
-   if(checkHours >= 5 && checkHours <= 12){
+   let currentHour = new Date().getHours();
+   if(currentHour >= 5 && currentHour <= 12){
       setHours("Bom Dia");
    }
-   else if(checkHours >= 13 && checkHours <= 18){
+   else if(currentHour >= 13 && currentHour <= 18){
       setHours("Boa Tarde");
    }
    else{
