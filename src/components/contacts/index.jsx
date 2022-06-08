@@ -13,7 +13,7 @@ import hourSubject from '../../helpers/hourSubject';
 
 export default function Contacts(){
 
-   const [hours, setHours] = useState("aasdsad")
+   const [hours, setHours] = useState("")
    
    useEffect(()=>{
       hourSubject(setHours)
