@@ -1,0 +1,21 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+   background-color: rgb(230, 230, 230);
+  width: 10.5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+}
+::-moz-scrollbar-thumb{
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+}
